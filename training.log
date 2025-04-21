@@ -1,0 +1,214 @@
+2024-10-05 16:27:56,333 - INFO - Loading contract data...
+2024-10-05 16:28:52,475 - INFO - Model saved to backend/model\document_classifier.joblib and vectorizer to backend/model\tfidf_vectorizer.joblib
+2024-10-05 16:28:57,206 - INFO - Accuracy: 0.6129707112970711
+2024-10-05 16:28:57,206 - INFO - Classification Report: 
+                                precision    recall  f1-score   support
+
+            ADVISORY AGREEMENT       0.56      0.62      0.59         8
+              AGENCY AGREEMENT       0.67      0.36      0.47        11
+         ARBITRATION AGREEMENT       0.00      0.00      0.00         1
+          ASSIGNMENT AGREEMENT       0.00      0.00      0.00         5
+          ASSUMPTION AGREEMENT       0.67      0.50      0.57        12
+       COLLABORATION AGREEMENT       0.91      0.53      0.67        19
+     CONFIDENTIALITY AGREEMENT       0.67      0.14      0.24        14
+        CONTRIBUTION AGREEMENT       1.00      0.36      0.53        11
+              DEALER AGREEMENT       1.00      1.00      1.00        19
+             DEPOSIT AGREEMENT       1.00      0.92      0.96        13
+         DEVELOPMENT AGREEMENT       0.46      0.50      0.48        12
+        DISTRIBUTION AGREEMENT       1.00      0.50      0.67        14
+          EMPLOYMENT AGREEMENT       0.51      0.91      0.66        67
+              ESCROW AGREEMENT       0.90      0.82      0.86        11
+            EXCHANGE AGREEMENT       0.75      0.90      0.82        10
+          FEE WAIVER AGREEMENT       0.00      0.00      0.00         1
+           FRANCHISE AGREEMENT       1.00      0.57      0.73        14
+     INDEMNIFICATION AGREEMENT       0.91      0.91      0.91        11
+       INTERCREDITOR AGREEMENT       0.86      0.86      0.86        22
+          INVESTMENT AGREEMENT       0.00      0.00      0.00         5
+               LEASE AGREEMENT       0.00      0.00      0.00         4
+                LOAN AGREEMENT       0.47      0.77      0.58        30
+          MANAGEMENT AGREEMENT       0.00      0.00      0.00         1
+MERGER & ACQUISITION AGREEMENT       0.26      0.50      0.34        14
+      NON-DISCLOSURE AGREEMENT       0.00      0.00      0.00         6
+                NOT A CONTRACT       0.57      0.87      0.69        23
+           OPERATING AGREEMENT       0.00      0.00      0.00         1
+                OTHER CONTRACT       0.00      0.00      0.00         5
+              PLEDGE AGREEMENT       0.00      0.00      0.00         4
+               PROMISSORY NOTE       0.00      0.00      0.00         1
+                SALES CONTRACT       0.29      0.18      0.22        11
+              SECURITIES SALES       0.00      0.00      0.00         2
+            SECURITY AGREEMENT       0.00      0.00      0.00         3
+            SERVICES AGREEMENT       1.00      0.12      0.22         8
+           SERVICING AGREEMENT       0.00      0.00      0.00         3
+          SETTLEMENT AGREEMENT       0.83      0.56      0.67         9
+        STOCK OPTION AGREEMENT       0.47      0.73      0.57        22
+       SUBORDINATION AGREEMENT       1.00      0.38      0.55         8
+              SUPPLY AGREEMENT       0.00      0.00      0.00         4
+      TAX ALLOCATION AGREEMENT       1.00      1.00      1.00         5
+               TRUST AGREEMENT       0.00      0.00      0.00         1
+        UNDERWRITING AGREEMENT       1.00      0.90      0.95        10
+              WAIVER AGREEMENT       0.25      0.20      0.22        15
+             WARRANT AGREEMENT       0.53      1.00      0.70         8
+
+                      accuracy                           0.61       478
+                     macro avg       0.47      0.40      0.40       478
+                  weighted avg       0.62      0.61      0.57       478
+
+2024-10-05 16:48:58,349 - INFO - Loading contract data...
+2024-10-05 16:49:42,434 - INFO - Training the Logistic Regression model...
+2024-10-05 16:49:48,861 - INFO - Model saved to backend/model\document_classifier.joblib and vectorizer saved to backend/model\tfidf_vectorizer.joblib
+2024-10-05 16:49:48,867 - INFO - Vocabulary saved to backend/model\tfidf_vocab.joblib
+2024-10-05 16:49:53,647 - INFO - Model accuracy: 0.6129707112970711
+2024-10-05 16:49:53,647 - INFO - Classification report:
+                                precision    recall  f1-score   support
+
+            ADVISORY AGREEMENT       0.56      0.62      0.59         8
+              AGENCY AGREEMENT       0.67      0.36      0.47        11
+         ARBITRATION AGREEMENT       0.00      0.00      0.00         1
+          ASSIGNMENT AGREEMENT       0.00      0.00      0.00         5
+          ASSUMPTION AGREEMENT       0.67      0.50      0.57        12
+       COLLABORATION AGREEMENT       0.91      0.53      0.67        19
+     CONFIDENTIALITY AGREEMENT       0.67      0.14      0.24        14
+        CONTRIBUTION AGREEMENT       1.00      0.36      0.53        11
+              DEALER AGREEMENT       1.00      1.00      1.00        19
+             DEPOSIT AGREEMENT       1.00      0.92      0.96        13
+         DEVELOPMENT AGREEMENT       0.46      0.50      0.48        12
+        DISTRIBUTION AGREEMENT       1.00      0.50      0.67        14
+          EMPLOYMENT AGREEMENT       0.51      0.91      0.66        67
+              ESCROW AGREEMENT       0.90      0.82      0.86        11
+            EXCHANGE AGREEMENT       0.75      0.90      0.82        10
+          FEE WAIVER AGREEMENT       0.00      0.00      0.00         1
+           FRANCHISE AGREEMENT       1.00      0.57      0.73        14
+     INDEMNIFICATION AGREEMENT       0.91      0.91      0.91        11
+       INTERCREDITOR AGREEMENT       0.86      0.86      0.86        22
+          INVESTMENT AGREEMENT       0.00      0.00      0.00         5
+               LEASE AGREEMENT       0.00      0.00      0.00         4
+                LOAN AGREEMENT       0.47      0.77      0.58        30
+          MANAGEMENT AGREEMENT       0.00      0.00      0.00         1
+MERGER & ACQUISITION AGREEMENT       0.26      0.50      0.34        14
+      NON-DISCLOSURE AGREEMENT       0.00      0.00      0.00         6
+                NOT A CONTRACT       0.57      0.87      0.69        23
+           OPERATING AGREEMENT       0.00      0.00      0.00         1
+                OTHER CONTRACT       0.00      0.00      0.00         5
+              PLEDGE AGREEMENT       0.00      0.00      0.00         4
+               PROMISSORY NOTE       0.00      0.00      0.00         1
+                SALES CONTRACT       0.29      0.18      0.22        11
+              SECURITIES SALES       0.00      0.00      0.00         2
+            SECURITY AGREEMENT       0.00      0.00      0.00         3
+            SERVICES AGREEMENT       1.00      0.12      0.22         8
+           SERVICING AGREEMENT       0.00      0.00      0.00         3
+          SETTLEMENT AGREEMENT       0.83      0.56      0.67         9
+        STOCK OPTION AGREEMENT       0.47      0.73      0.57        22
+       SUBORDINATION AGREEMENT       1.00      0.38      0.55         8
+              SUPPLY AGREEMENT       0.00      0.00      0.00         4
+      TAX ALLOCATION AGREEMENT       1.00      1.00      1.00         5
+               TRUST AGREEMENT       0.00      0.00      0.00         1
+        UNDERWRITING AGREEMENT       1.00      0.90      0.95        10
+              WAIVER AGREEMENT       0.25      0.20      0.22        15
+             WARRANT AGREEMENT       0.53      1.00      0.70         8
+
+                      accuracy                           0.61       478
+                     macro avg       0.47      0.40      0.40       478
+                  weighted avg       0.62      0.61      0.57       478
+
+2024-10-11 20:32:17,327 - WARNING -  * Debugger is active!
+2024-10-11 20:32:17,344 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 20:35:16,757 - INFO -  * Detected change in "C:\\Users\\vansh\\Desktop\\vanshya's pro\\pr03\\utils.py", reloading
+2024-10-11 20:35:20,835 - WARNING -  * Debugger is active!
+2024-10-11 20:35:20,854 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 20:35:26,899 - INFO -  * Detected change in "C:\\Users\\vansh\\Desktop\\vanshya's pro\\pr03\\app.py", reloading
+2024-10-11 20:35:29,581 - WARNING -  * Debugger is active!
+2024-10-11 20:35:29,628 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 20:35:50,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 20:35:51,200 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 20:35:51,204 - INFO -  * Restarting with stat
+2024-10-11 20:35:53,265 - WARNING -  * Debugger is active!
+2024-10-11 20:35:53,281 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 20:36:06,838 - INFO - 127.0.0.1 - - [11/Oct/2024 20:36:06] "GET / HTTP/1.1" 200 -
+2024-10-11 20:36:07,177 - INFO - 127.0.0.1 - - [11/Oct/2024 20:36:07] "[36mGET /static/img/loading.gif HTTP/1.1[0m" 304 -
+2024-10-11 20:36:07,185 - INFO - 127.0.0.1 - - [11/Oct/2024 20:36:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-10-11 20:36:07,274 - INFO - 127.0.0.1 - - [11/Oct/2024 20:36:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-10-11 20:36:20,851 - INFO - Classifying document: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:20,955 - INFO - Starting OCR for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:21,883 - INFO - Processing page 1 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:28,550 - INFO - Processing page 2 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:33,062 - INFO - Processing page 3 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:37,187 - INFO - Processing page 4 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:40,895 - INFO - Processing page 5 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:44,771 - INFO - OCR completed for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 20:36:44,828 - INFO - Prediction: NOT A CONTRACT, Match: 29.37%
+2024-10-11 20:36:44,828 - INFO - Top keywords: ['al', 'patent', 'model', 'the', 'human', 'and', '2021', 'in', '2023', 'to']
+2024-10-11 20:36:44,846 - INFO - 127.0.0.1 - - [11/Oct/2024 20:36:44] "POST /upload HTTP/1.1" 200 -
+2024-10-11 21:08:36,330 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 21:08:36,812 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 21:08:36,812 - INFO -  * Restarting with stat
+2024-10-11 21:09:03,280 - WARNING -  * Debugger is active!
+2024-10-11 21:09:03,296 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 21:09:08,861 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-10-11 21:09:08,877 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:08] "[36mGET /static/img/loading.gif HTTP/1.1[0m" 304 -
+2024-10-11 21:09:08,900 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-10-11 21:09:12,507 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:12] "GET / HTTP/1.1" 200 -
+2024-10-11 21:09:12,554 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:12] "[36mGET /static/img/loading.gif HTTP/1.1[0m" 304 -
+2024-10-11 21:09:12,565 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-10-11 21:09:12,570 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2024-10-11 21:09:23,117 - INFO - Classifying document: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:23,267 - INFO - Starting OCR for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:24,230 - INFO - Processing page 1 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:28,499 - INFO - Processing page 2 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:32,618 - INFO - Processing page 3 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:36,581 - INFO - Processing page 4 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:40,303 - INFO - Processing page 5 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:44,048 - INFO - OCR completed for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\IPR_paper.pdf
+2024-10-11 21:09:44,167 - INFO - Generating summary for the extracted text.
+2024-10-11 21:09:44,644 - ERROR - Error generating summary: index out of range in self
+2024-10-11 21:09:44,644 - INFO - Prediction: NOT A CONTRACT, Match: 29.37%
+2024-10-11 21:09:44,644 - INFO - Top keywords: ['al', 'patent', 'model', 'the', 'human', 'and', '2021', 'in', '2023', 'to']
+2024-10-11 21:09:44,644 - INFO - Summary: Could not generate summary.
+2024-10-11 21:09:44,644 - INFO - 127.0.0.1 - - [11/Oct/2024 21:09:44] "POST /upload HTTP/1.1" 200 -
+2024-10-11 21:10:03,303 - INFO - Classifying document: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:03,357 - INFO - Starting OCR for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:04,821 - INFO - Processing page 1 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:07,355 - INFO - Processing page 2 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:10,092 - INFO - Processing page 3 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:12,692 - INFO - Processing page 4 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:15,706 - INFO - Processing page 5 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:18,201 - INFO - Processing page 6 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:20,489 - INFO - Processing page 7 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:22,720 - INFO - Processing page 8 of C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:24,684 - INFO - OCR completed for PDF: C:\Users\vansh\Desktop\vanshya's pro\pr03\static\uploads\service_contract.pdf
+2024-10-11 21:10:24,710 - INFO - Generating summary for the extracted text.
+2024-10-11 21:10:24,821 - ERROR - Error generating summary: index out of range in self
+2024-10-11 21:10:24,821 - INFO - Prediction: EMPLOYMENT AGREEMENT, Match: 32.97%
+2024-10-11 21:10:24,821 - INFO - Top keywords: ['the', 'consultant', 'and', 'of', 'to', 'or', 'agreement', 'shall', 'in', 'this']
+2024-10-11 21:10:24,821 - INFO - Summary: Could not generate summary.
+2024-10-11 21:10:24,821 - INFO - 127.0.0.1 - - [11/Oct/2024 21:10:24] "POST /upload HTTP/1.1" 200 -
+2024-10-11 21:11:45,913 - INFO -  * Detected change in "C:\\Users\\vansh\\Desktop\\vanshya's pro\\pr03\\utils.py", reloading
+2024-10-11 21:11:52,425 - INFO -  * Restarting with stat
+2024-10-11 21:12:27,340 - WARNING -  * Debugger is active!
+2024-10-11 21:12:27,360 - INFO -  * Debugger PIN: 132-031-418
+2024-10-11 21:13:22,847 - INFO -  * Detected change in "C:\\Users\\vansh\\Desktop\\vanshya's pro\\pr03\\app.py", reloading
+2024-10-11 21:13:25,357 - INFO -  * Restarting with stat
+2025-01-29 14:23:06,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 14:23:06,429 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 14:23:06,433 - INFO -  * Restarting with stat
+2025-01-29 14:23:17,295 - WARNING -  * Debugger is active!
+2025-01-29 14:23:17,306 - INFO -  * Debugger PIN: 129-086-720
+2025-01-29 14:26:47,051 - INFO -  * Detected change in 'C:\\Document_classifier-main\\venv\\Lib\\site-packages\\sklearn\\linear_model\\_bayes.py', reloading
+2025-01-29 14:26:47,945 - INFO -  * Restarting with stat
+2025-01-29 14:27:39,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 14:27:39,304 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 14:27:39,306 - INFO -  * Restarting with stat
+2025-01-29 14:27:45,623 - WARNING -  * Debugger is active!
+2025-01-29 14:27:45,630 - INFO -  * Debugger PIN: 129-086-720
+2025-01-29 14:30:01,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 14:30:01,884 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 14:30:01,886 - INFO -  * Restarting with stat
+2025-01-29 14:30:07,864 - WARNING -  * Debugger is active!
+2025-01-29 14:30:07,870 - INFO -  * Debugger PIN: 129-086-720
+2025-01-29 14:30:37,526 - INFO -  * Detected change in 'C:\\Document_classifier-main\\utils.py', reloading
+2025-01-29 14:30:38,253 - INFO -  * Restarting with stat
+2025-01-29 14:30:51,140 - INFO -  * Restarting with stat

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Classifier</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Document Classifier</h1>
+
+        <!-- Form to upload PDF -->
+        <div id="upload-section">
+            <form id="upload-form">
+                <input type="file" id="pdf" name="pdf" accept="application/pdf">
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+
+        <!-- Loading spinner -->
+        <div id="loading" class="hidden">
+            <img src="/static/img/loading.gif" alt="Loading...">
+        </div>
+
+        <!-- Analysis Result Section -->
+        <div id="analysis-result" class="hidden result-container">
+            <div class="result-partition">
+                <h2>Document Type</h2>
+                <div id="doc-info"></div>
+            </div>
+            <div class="result-partition">
+                <h2>Match Percentage</h2>
+                <div id="match-percentage"></div>
+            </div>
+            <div class="result-partition">
+                <h2>Summary</h2>
+                <div id="summary"></div>
+            </div>
+            <div class="result-partition">
+                <h2>Top Keywords</h2>
+                <ul id="keyword-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
